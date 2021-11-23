@@ -1,0 +1,91 @@
+@import "colores";
+
+@mixin formato {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+@mixin after {
+    background-color: $yellow;
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+}
+
+@mixin top-left-0 {
+    top: 0;
+    left: 0;
+}
+
+// Flexbox display
+@mixin flexbox {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+
+  // Inline flex display
+@mixin inline-flex {
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+
+@mixin center {
+    text-align: center;
+    justify-content: center;
+	align-items: center;
+    align-items: center;
+}
+
+// padding
+
+@mixin padding {
+    padding: 1.5% 5%;
+}
+
+// li
+
+@mixin lis {
+    list-style-type: none;
+    margin-right: 20px;
+    line-height: 1.5rem;
+}
+
+// iconos
+@mixin lg-icon-size($size: 50px) {
+    font-size: $size;
+    height: $size;
+    width: $size;
+  }
+
+@mixin md-icon-size($size: 40px) {
+    font-size: $size;
+    height: $size;
+    width: $size;
+  }
+
+  @mixin sm-icon-size($size: 32px) {
+    font-size: $size;
+    height: $size;
+    width: $size;
+  }

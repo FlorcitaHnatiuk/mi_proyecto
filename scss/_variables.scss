@@ -1,0 +1,27 @@
+@import "mixins";
+@import "colores";
+
+$botones: (
+        clases: $yellow,
+        info: $lila-back,
+        contacto: $gris,
+        adultos: $yellow,
+        niños: $yellow
+);
+
+@each $tipo, $color in $botones {
+    .button--#{$tipo} {
+    @include formato;
+        &:after {
+            @include after;
+        }
+        &:hover:after {
+            @include top-left-0;  
+        }
+    }
+}
+
+
+
+
+

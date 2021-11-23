@@ -1,0 +1,15 @@
+@import "colores";
+@import "mixins";
+
+.circulo {
+	width: 40rem;
+	height: 40rem;
+	border-radius: 50%;
+  background-color: $green;
+	@include flexbox;
+  @include center;
+  margin:0px auto;
+}
+
+
+

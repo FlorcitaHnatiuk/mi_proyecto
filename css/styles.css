@@ -1,0 +1,304 @@
+@charset "UTF-8";
+.circulo {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  background-color: #22EAAA;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  margin: 0px auto; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: black; }
+
+a {
+  color: black;
+  text-decoration: none; }
+  a:hover {
+    color: #056676; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Mochiy Pop One", sans-serif;
+  color: #5EAAA8; }
+
+.big-heading {
+  font-size: 5rem;
+  line-height: 1.5; }
+
+.btn a {
+  color: black;
+  text-decoration: none; }
+
+.superounded-borders {
+  border-radius: 50%; }
+
+nav .container-fluid {
+  padding: 1.5% 5%; }
+
+footer {
+  padding: 1.5% 5%;
+  background-color: #DDDDDD; }
+  footer ul {
+    color: black;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-items: center; }
+    footer ul li {
+      display: -webkit-inline-box;
+      display: -moz-inline-box;
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      list-style-type: none;
+      margin-right: 20px;
+      line-height: 1.5rem;
+      font-size: 32px;
+      height: 32px;
+      width: 32px; }
+      footer ul li a {
+        text-decoration: none; }
+
+.compromiso h2 {
+  color: #056676;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  padding: 20px; }
+
+.compromiso ul {
+  color: black; }
+  .compromiso ul li {
+    list-style-type: none;
+    margin-right: 20px;
+    line-height: 1.5rem; }
+
+.niveles .niveles-niños h2 {
+  color: #056676; }
+
+.niveles .level {
+  background-color: thistle;
+  position: relative;
+  transform: rotate(-5deg);
+  width: 350px; }
+
+.niveles .niveles-adultos h2 {
+  color: #056676; }
+
+.niveles .level2 {
+  background-color: thistle;
+  position: relative;
+  transform: rotate(5deg);
+  width: 350px; }
+
+.iconos {
+  font-size: 50px;
+  height: 50px;
+  width: 50px; }
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: burlywood;
+  box-shadow: none; }
+
+.grow {
+  transition: all .2s ease-in-out; }
+  .grow:hover {
+    transform: scale(1.1); }
+
+.card:hover {
+  background-color: white; }
+
+.arrow {
+  font-size: 40px;
+  height: 40px;
+  width: 40px; }
+
+.docentes .miss {
+  background-color: thistle; }
+
+.docentes h2 {
+  color: #056676; }
+
+.welcome .welcome__title--uppercase {
+  text-transform: uppercase; }
+
+.button--clases {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation; }
+  .button--clases:after {
+    background-color: yellow;
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s; }
+  .button--clases:hover:after {
+    top: 0;
+    left: 0; }
+
+.button--info {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation; }
+  .button--info:after {
+    background-color: yellow;
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s; }
+  .button--info:hover:after {
+    top: 0;
+    left: 0; }
+
+.button--contacto {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation; }
+  .button--contacto:after {
+    background-color: yellow;
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s; }
+  .button--contacto:hover:after {
+    top: 0;
+    left: 0; }
+
+.button--adultos {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation; }
+  .button--adultos:after {
+    background-color: yellow;
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s; }
+  .button--adultos:hover:after {
+    top: 0;
+    left: 0; }
+
+.button--niños {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation; }
+  .button--niños:after {
+    background-color: yellow;
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s; }
+  .button--niños:hover:after {
+    top: 0;
+    left: 0; }
+
+@media (min-width: 768px) {
+  .button--clases .button--niños .button--adultos .button--info .button--contacto {
+    padding: 13px 50px 13px; } }
+
+@media only screen and (max-width: 599px) {
+  .big-heading {
+    text-align: center; }
+  .bird {
+    display: none; }
+  .img-fluid {
+    text-align: center; }
+  .presentation {
+    display: none; }
+  .btn {
+    width: 100%; }
+  .button--niños, .button--adultos {
+    width: 100%;
+    margin: 20px 0 0 0; }
+  .card {
+    width: 100%; } }

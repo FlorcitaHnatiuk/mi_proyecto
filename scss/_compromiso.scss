@@ -1,0 +1,21 @@
+@import "mixins";
+@import "colores";
+
+.compromiso {
+
+    h2 {
+        color: $dark-font;
+        @include center;
+        padding: 20px;
+    }
+
+    ul {
+        color: $black;
+
+        li {
+            @include lis;
+        }
+
+    }
+
+}

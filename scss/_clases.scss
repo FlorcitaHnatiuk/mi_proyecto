@@ -1,0 +1,40 @@
+@import "colores";
+@import "mixins";
+
+.niveles {
+    .niveles-niños{
+        h2 {
+            color: $dark-font;
+        }
+    }
+    .level {
+        background-color: $lila-back;
+        position: relative;
+        transform: rotate(-5deg);
+        width: 350px;
+    }
+}
+
+.niveles {
+    .niveles-adultos {
+        h2 {
+            color: $dark-font;
+        }
+    }
+    .level2 {
+        background-color: $lila-back;
+        position: relative;
+        transform: rotate(5deg);
+        width: 350px;
+    }
+}
+
+.iconos {
+    @include lg-icon-size;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: $brown-back;
+    box-shadow: none;
+}
