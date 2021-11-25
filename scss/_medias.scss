@@ -1,32 +1,39 @@
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .button--clases .button--niños .button--adultos .button--info .button--contacto {
-      padding: 13px 50px 13px;
+        padding: 13px 50px 13px;
     }
-  }
-  
-  @media only screen and (max-width:599px) {
-  
+
+    .card.card-just-text .content {
+        padding: 10px 10px;
+        text-align: center;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:599px) {
+
     .big-heading {
         text-align: center;
     }
-  
-    .bird{
+
+    .bird {
         display: none;
     }
-  
+
     .img-fluid {
         text-align: center;
     }
-  
+
     .presentation {
         display: none;
     }
-    
+
     .btn {
         width: 100%;
     }
 
-    .button--niños, .button--adultos{
+    .button--niños,
+    .button--adultos {
         width: 100%;
         margin: 20px 0 0 0;
     }
@@ -34,5 +41,4 @@
     .card {
         width: 100%;
     }
-  }
-  
+}
