@@ -372,16 +372,21 @@ footer {
     left: 0; }
 
 @media (max-width: 768px) {
+  body {
+    text-align: center; }
   .button--clases .button--niños .button--adultos .button--info .button--contacto {
     padding: 13px 50px 13px; }
   .card.card-just-text .content {
     padding: 10px 10px;
     text-align: center;
-    height: auto; } }
+    height: auto; }
+  .bird {
+    display: none; } }
 
 @media only screen and (max-width: 599px) {
   .big-heading {
-    text-align: center; }
+    text-align: center;
+    font-size: 3rem; }
   .bird {
     display: none; }
   .img-fluid {

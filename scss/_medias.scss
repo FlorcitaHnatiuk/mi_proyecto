@@ -1,4 +1,11 @@
+@import "tipografias";
+
 @media (max-width: 768px) {
+
+    body {
+        text-align: center;
+    }
+
     .button--clases .button--niños .button--adultos .button--info .button--contacto {
         padding: 13px 50px 13px;
     }
@@ -8,12 +15,21 @@
         text-align: center;
         height: auto;
     }
+
+    .bird {
+        display:none;
+    }
+
+
 }
 
 @media only screen and (max-width:599px) {
 
+    
+
     .big-heading {
         text-align: center;
+        font-size: 3rem;
     }
 
     .bird {
