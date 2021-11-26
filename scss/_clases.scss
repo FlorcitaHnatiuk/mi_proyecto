@@ -94,47 +94,6 @@
     margin-top:30px;    
 }
 
-// cards grid
-
-.cards-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    grid-template-areas:
-        "uno dos tres"
-        "cuatro cinco seis"
-        ". siete .";
-}
-
-.card1 {
-    grid-area: "uno";
-}
-
-.card2 {
-    grid-area: "dos";
-}
-
-.card3 {
-    grid-area: "tres";
-}
-
-.card4 {
-    grid-area: "cuatro";
-}
-
-.card5 {
-    grid-area: "cinco";
-}
-
-.card6 {
-    grid-area: "seis";
-}
-
-.card7 {
-  grid-area: "siete";
-}
-
-/*======== COLORS ===========*/
 .card[data-color="blue"] {
     background: #b8d8d8;
 }
