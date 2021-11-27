@@ -28,11 +28,11 @@
 body {
   font-size: 62,5%; }
 
-a {
+.navbar li a, .navbar .navbar-brand {
   color: black;
   text-decoration: none; }
-  a:hover {
-    color: #056676; }
+  .navbar li a:hover, .navbar .navbar-brand:hover {
+    color: #056676 !important; }
 
 body {
   font-family: "Lato", sans-serif;
