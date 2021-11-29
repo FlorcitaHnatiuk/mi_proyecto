@@ -103,52 +103,34 @@
     margin-top:30px;    
 }
 
+.description {
+    color: $black;
+}
+
 .card[data-color="blue"] {
     background: $baby-blue;
-    .description {
-        color: $black;
-    }
 }
 
 .card[data-color="green"] {
     background: $soft-green;
-    .description {
-        color: $black;
-    }
 }
 
 .card[data-color="yellow"] {
     background: $soft-yellow;
-    .description {
-        color: $black;
-    }
 }
 
 .card[data-color="brown"] {
     background: $brown;
-    .description {
-        color: $black;
-    }
 }
 
 .card[data-color="purple"] {
     background: $lila-back;
-    .description {
-        color: $black;
-    }
 }
 
 .card[data-color="orange"] {
     background: $orange;
-    .description {
-        color: $black;
-    }
 }
 
 .card[data-color="pink"] {
     background: $pink-back;
-    .description {
-        color: $black;
-    }
 }
-
