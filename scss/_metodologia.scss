@@ -14,4 +14,37 @@
 
 .arrow {
     @include md-icon-size;
-} 
+}
+
+.videoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "uno dos tres"
+        "cuatro cinco seis";
+}
+
+.video1 {
+    grid-area: "uno";
+}
+
+.video2 {
+    grid-area: "dos";
+}
+
+.video3 {
+    grid-area: "tres";
+}
+
+.video4 {
+    grid-area: "cuatro";
+}
+
+.video5 {
+    grid-area: "cinco";
+}
+
+.video6 {
+    grid-area: "seis";
+}

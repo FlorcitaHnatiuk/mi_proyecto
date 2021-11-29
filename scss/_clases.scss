@@ -48,14 +48,11 @@
 
 .card-big-shadow {
     justify-content: space-between;
-    flex-direction: column;
-    display: flex;
-}
-
-.card-big-shadow {
+    flex-direction: row;
+    display: grid;
     max-width: 500px;
-    position: relative;
-}
+    position: relative; 
+} 
 
 .card[data-radius="none"] {
     border-radius: 0px;
@@ -80,10 +77,6 @@
     height: 300px;
 }
 
-/* .card .content {
-    padding: 20px 20px 10px 20px;
-}
- */
 .card-big-shadow:before {
     background-image: url("http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png");
     background-position: center bottom;

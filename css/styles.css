@@ -140,10 +140,8 @@ footer {
 
 .card-big-shadow {
   justify-content: space-between;
-  flex-direction: column;
-  display: flex; }
-
-.card-big-shadow {
+  flex-direction: row;
+  display: grid;
   max-width: 500px;
   position: relative; }
 
@@ -165,10 +163,6 @@ footer {
   text-align: center;
   height: 300px; }
 
-/* .card .content {
-    padding: 20px 20px 10px 20px;
-}
- */
 .card-big-shadow:before {
   background-image: url("http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png");
   background-position: center bottom;
@@ -222,6 +216,30 @@ footer {
   font-size: 40px;
   height: 40px;
   width: 40px; }
+
+.videoGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: "uno dos tres" "cuatro cinco seis"; }
+
+.video1 {
+  grid-area: "uno"; }
+
+.video2 {
+  grid-area: "dos"; }
+
+.video3 {
+  grid-area: "tres"; }
+
+.video4 {
+  grid-area: "cuatro"; }
+
+.video5 {
+  grid-area: "cinco"; }
+
+.video6 {
+  grid-area: "seis"; }
 
 .docentes .miss {
   background-color: thistle; }
@@ -377,7 +395,24 @@ footer {
     text-align: center;
     height: auto; }
   .bird {
-    display: none; } }
+    display: none; }
+  .videoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "uno dos" "tres cuatro" "cinco seis"; }
+  .video1 {
+    grid-area: "uno"; }
+  .video2 {
+    grid-area: "dos"; }
+  .video3 {
+    grid-area: "tres"; }
+  .video4 {
+    grid-area: "cuatro"; }
+  .video5 {
+    grid-area: "cinco"; }
+  .video6 {
+    grid-area: "seis"; } }
 
 @media only screen and (max-width: 599px) {
   .big-heading {
@@ -396,4 +431,21 @@ footer {
     width: 100%;
     margin: 20px 0 0 0; }
   .card {
-    width: 100%; } }
+    width: 100%; }
+  .videoGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-areas: "uno" "dos" "tres" "cuatro" "cinco" "seis"; }
+  .video1 {
+    grid-area: "uno"; }
+  .video2 {
+    grid-area: "dos"; }
+  .video3 {
+    grid-area: "tres"; }
+  .video4 {
+    grid-area: "cuatro"; }
+  .video5 {
+    grid-area: "cinco"; }
+  .video6 {
+    grid-area: "seis"; } }
