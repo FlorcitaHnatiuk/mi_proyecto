@@ -1,7 +1,7 @@
 {
   "name": "mi_proyecto",
   "version": "1.0.0",
-  "description": "",
+  "description": "Primer proyecto web dev",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
 
   },
-  "author": "",
+  "author": "Florencia Hnatiuk",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
