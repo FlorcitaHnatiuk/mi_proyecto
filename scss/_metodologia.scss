@@ -16,9 +16,14 @@
     @include md-icon-size;
 }
 
+iframe {
+    margin: 1rem;
+}
+
 .videoGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto;
     grid-template-areas:
         "uno dos tres"
