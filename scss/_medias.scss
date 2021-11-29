@@ -6,15 +6,17 @@
         text-align: center;
     }
 
+    .boy {
+        display: none;
+    }
+
     .button--clases .button--niños .button--adultos .button--info .button--contacto {
         padding: 13px 50px 13px;
     }
 
     .card.card-just-text .content {
-        padding: 10px 10px;
-        text-align: center;
-        height:450px;
-    }
+        height: 280px;
+    } 
 
     .bird {
         display:none;
@@ -58,6 +60,10 @@
 }
 
 @media only screen and (max-width:599px) {
+
+    .boy {
+        display: none;
+    }
 
     .big-heading {
         text-align: center;

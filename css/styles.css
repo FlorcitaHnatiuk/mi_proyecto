@@ -204,14 +204,6 @@ footer {
 .card[data-color="pink"] {
   background: lightpink; }
 
-.grow {
-  transition: all .2s ease-in-out; }
-  .grow:hover {
-    transform: scale(1.1); }
-
-.card:hover {
-  background-color: white; }
-
 .arrow {
   font-size: 40px;
   height: 40px;
@@ -392,12 +384,12 @@ iframe {
 @media (max-width: 768px) {
   body {
     text-align: center; }
+  .boy {
+    display: none; }
   .button--clases .button--niños .button--adultos .button--info .button--contacto {
     padding: 13px 50px 13px; }
   .card.card-just-text .content {
-    padding: 10px 10px;
-    text-align: center;
-    height: 450px; }
+    height: 280px; }
   .bird {
     display: none; }
   .videoGrid {
@@ -419,6 +411,8 @@ iframe {
     grid-area: "seis"; } }
 
 @media only screen and (max-width: 599px) {
+  .boy {
+    display: none; }
   .big-heading {
     text-align: center;
     font-size: 3rem; }
