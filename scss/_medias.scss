@@ -21,7 +21,8 @@
     .bird {
         display:none;
     }
-    .ghost1 {
+
+    .ghost, .ghost1 {
         display: none;
     }
 
@@ -99,7 +100,7 @@
         width: 100%;
     }
 
-    .ghost .ghost1 {
+    .ghost, .ghost1 {
         display: none;
     }
 

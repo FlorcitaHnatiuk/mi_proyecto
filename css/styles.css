@@ -392,7 +392,7 @@ iframe {
     height: 280px; }
   .bird {
     display: none; }
-  .ghost1 {
+  .ghost, .ghost1 {
     display: none; }
   .videoGrid {
     display: grid;
@@ -432,7 +432,7 @@ iframe {
     margin: 20px 0 0 0; }
   .card {
     width: 100%; }
-  .ghost .ghost1 {
+  .ghost, .ghost1 {
     display: none; }
   .videoGrid {
     display: grid;
