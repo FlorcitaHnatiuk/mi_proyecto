@@ -2,6 +2,10 @@
 
 @media (max-width: 768px) {
 
+    .avatar2, .avatar4 {
+        display: none;
+    }
+
     body {
         text-align: center;
     }
@@ -64,6 +68,10 @@
 }
 
 @media only screen and (max-width:599px) {
+
+    .avatar2, .avatar4 {
+        display: none;
+    }
 
     .boy {
         display: none;
