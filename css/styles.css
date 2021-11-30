@@ -36,7 +36,7 @@ body {
   color: black;
   text-decoration: none; }
   .navbar li a:hover, .navbar .navbar-brand:hover {
-    color: #056676 !important; }
+    color: black !important; }
 
 body {
   font-family: "Lato", sans-serif;
