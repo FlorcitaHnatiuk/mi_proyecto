@@ -129,7 +129,7 @@ footer {
 
 .accordion-button:not(.collapsed) {
   color: black;
-  background-color: burlywood;
+  background-color: #DDDDDD;
   box-shadow: none; }
 
 .button-clases {
