@@ -39,6 +39,14 @@ h1, h2, h3, h4, h5, h6 {
     color: $light-font;
 }
 
+.breadcrumb a {
+    text-decoration: none;
+    color: $black;
+    &:hover {
+        color:$dark-font;
+    }
+}
+
 .big-heading {
     font-size: 5rem;
     line-height: 1.5;

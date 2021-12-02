@@ -46,6 +46,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Mochiy Pop One", sans-serif;
   color: #5EAAA8; }
 
+.breadcrumb a {
+  text-decoration: none;
+  color: black; }
+  .breadcrumb a:hover {
+    color: #056676; }
+
 .big-heading {
   font-size: 5rem;
   line-height: 1.5; }
