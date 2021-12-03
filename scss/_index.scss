@@ -1,3 +1,26 @@
+@import "colores";
+
+.imagen-adulto1{
+    transform: rotate(25deg);
+    &:hover {
+        transform: rotate(-25deg);
+    }
+}
+
+.imagen-adulto2 {
+    transform: rotate(-10deg);
+    &:hover {
+        transform: rotate(10deg);
+    }
+}
+
+.imagen-adulto3 {
+    transform: rotate(-15deg);
+    &:hover {
+        transform: rotate(15deg);
+    }
+}
+
 .welcome {
     .welcome__title--uppercase {
         text-transform: uppercase;

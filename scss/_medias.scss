@@ -2,6 +2,10 @@
 
 @media (max-width: 768px) {
 
+    .imagen-adulto1, .imagen-adulto2, .imagen-adulto3 {
+        display: none;
+    } 
+
     .avatar2, .avatar4 {
         display: none;
     }
@@ -28,6 +32,10 @@
 
     .ghost, .ghost1 {
         display: none;
+    }
+
+    iframe {
+        width: 90%;
     }
 
     .videoGrid {
@@ -68,6 +76,10 @@
 }
 
 @media only screen and (max-width:599px) {
+
+    .imagen-adulto1, .imagen-adulto2, .imagen-adulto3 {
+        display: none;
+    } 
 
     .avatar2, .avatar4 {
         display: none;
@@ -152,8 +164,25 @@
 }
 
 @media only screen and (max-width:411px) {
+
+    .imagen-adulto1, .imagen-adulto2, .imagen-adulto3 {
+        display: none;
+    } 
+    
     .big-heading {
         font-size: 2.5rem;
+    }
+
+    iframe {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media only screen and (max-width:312px) {
+    iframe {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
 
