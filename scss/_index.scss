@@ -1,23 +1,32 @@
 @import "colores";
 
 .imagen-adulto1{
-    transform: rotate(25deg);
+    transform: rotate(18deg);
+    border-style: solid;
+    border-color: $soft-yellow;
+    padding: 0.5rem 0.5rem;
     &:hover {
-        transform: rotate(-25deg);
+        transform: rotate(-18deg);
     }
 }
 
 .imagen-adulto2 {
-    transform: rotate(-10deg);
+    transform: rotate(-5deg);
+    border-style: solid;
+    border-color: $soft-yellow;
+    padding: 0.5rem 0.5rem;
     &:hover {
-        transform: rotate(10deg);
+        transform: rotate(5deg);
     }
 }
 
 .imagen-adulto3 {
-    transform: rotate(-15deg);
+    transform: rotate(15deg);
+    border-style: solid;
+    border-color: $soft-yellow;
+    padding: 0.5rem 0.5rem;
     &:hover {
-        transform: rotate(15deg);
+        transform: rotate(-15deg);
     }
 }
 
